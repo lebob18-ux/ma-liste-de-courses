@@ -2,10 +2,8 @@
 import os
 import json
 import requests
-import pandas as pd
 from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
-from openpyxl.utils import get_column_letter
 from datetime import datetime
 from dotenv import load_dotenv
 
